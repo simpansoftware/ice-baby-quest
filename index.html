@@ -150,7 +150,7 @@ const firebaseConfig = {
 				window.gtag = function () { window.dataLayer.push(arguments); }
 
 				window.gtag("config", firebaseConfig.measurementId, {
-				  cookie_domain: window.location.hostname,
+				  cookie_domain: azgames.io,
 				  cookie_flags: "SameSite=None;Secure",
 				});
 				// Initialize Firebase
